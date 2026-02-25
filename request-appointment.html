@@ -82,42 +82,24 @@
     </section>
 
     <section class="page-content">
-      <div class="container split">
-        <div>
+      <div class="container">
+        <div class="highlight">
           <div class="notice">
             <strong>Not for emergencies.</strong> If this is a medical emergency, call 911.<br />
             <strong>Do not use this form to reschedule an existing appointment.</strong>
           </div>
           <p style="margin-top: 16px;">We respect your privacy. Do not submit protected health information through this form.</p>
-          <p>New patients can also download forms ahead of time on our <a href="patient-forms.html">Patient Forms &amp; Resources</a> page.</p>
-        </div>
-        <div class="form-card">
-          <form id="appointment-form" novalidate>
-            <label for="parentName">Parent/Guardian Name *</label>
-            <input id="parentName" name="parentName" type="text" autocomplete="name" required />
-            <span class="error" id="error-parent">Please enter the parent or guardian name.</span>
-
-            <label for="childName">Child First Name (optional)</label>
-            <input id="childName" name="childName" type="text" autocomplete="given-name" />
-
-            <label for="phone">Callback Phone *</label>
-            <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="(773) 555-1234" required />
-            <span class="error" id="error-phone">Please enter a valid phone number.</span>
-
-            <label for="email">Email (optional)</label>
-            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" />
-
-            <label for="preferredTime">Preferred Day/Time *</label>
-            <input id="preferredTime" name="preferredTime" type="text" placeholder="e.g., Tues morning or after 3 PM" required />
-            <span class="error" id="error-preferred">Please share your preferred day/time.</span>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Please do not include medical details."></textarea>
-            <small>Please do not include medical details.</small>
-
-            <button class="btn btn-primary" type="submit">Submit Request</button>
-            <div class="form-success" role="status" tabindex="-1">Thanks! We’ll contact you within 1 business day.</div>
-          </form>
+          <div class="card" style="margin-top: 16px;">
+            <h2 style="margin-top: 0;">How to Request an Appointment</h2>
+            <p><strong>New patients:</strong> Please call our office to get started.</p>
+            <p><strong>Existing patients:</strong> Call, email, or submit a request through the AdvanceMD portal.</p>
+            <p style="margin-bottom: 0;">
+              <a class="btn btn-outline" href="tel:+17732292373">Call (773) 229-2373</a>
+              <a class="btn btn-outline" href="mailto:jcreyespediatrics@gmail.com">Email Us</a>
+              <a class="btn btn-primary" href="https://www.advancedmd.com/patient/" target="_blank" rel="noopener">AdvanceMD Patient Portal</a>
+            </p>
+          </div>
+          <p style="margin-top: 16px;">New patients can also download forms ahead of time on our <a href="patient-forms.html">Patient Forms &amp; Resources</a> page.</p>
         </div>
       </div>
     </section>
