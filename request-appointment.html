@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request an Appointment | JC Reyes Pediatrics</title>
+  <meta name="description" content="Request a pediatric appointment at JC Reyes Pediatrics in Chicago. We respond within 1 business day." />
+  <meta property="og:title" content="Request an Appointment" />
+  <meta property="og:description" content="Submit a request and we will contact you within 1 business day." />
+  <meta property="og:image" content="assets/images/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jcreyespediatrics.com/request-appointment" />
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "JC Reyes Pediatrics",
+      "url": "https://www.jcreyespediatrics.com",
+      "telephone": "+1-773-229-2373",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "6745 West 63rd St",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "postalCode": "60638"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="top-bar">
+    <div class="container">
+      <div class="contact-info">
+        <span>Phone: <a href="tel:+17732292373">(773) 229-2373</a></span>
+        <span>6745 West 63rd St, Chicago, IL</span>
+      </div>
+      <a class="cta-btn" href="request-appointment.html">Request an Appointment</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">JR</span>
+        <span>JC Reyes Pediatrics</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">Services</button>
+          <div class="dropdown-menu" role="menu">
+            <a href="services/index.html">Services Overview</a>
+            <a href="services/well-child-visits.html">Well-Child Visits</a>
+            <a href="services/same-day-sick-visits.html">Same-Day Sick Visits</a>
+            <a href="services/immunizations.html">Immunizations</a>
+            <a href="services/school-sports-physicals.html">School &amp; Sports Physicals</a>
+          </div>
+        </div>
+        <a href="patient-forms.html">Patient Forms &amp; Resources</a>
+        <a href="contact.html">Contact &amp; Location</a>
+        <a class="primary-btn" href="request-appointment.html">Request an Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Request an Appointment</h1>
+        <p>We respond within 1 business day. For urgent concerns, please call our office.</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container split">
+        <div>
+          <div class="notice">
+            <strong>Not for emergencies.</strong> If this is a medical emergency, call 911.<br />
+            <strong>Do not use this form to reschedule an existing appointment.</strong>
+          </div>
+          <p style="margin-top: 16px;">We respect your privacy. Do not submit protected health information through this form.</p>
+          <p>New patients can also download forms ahead of time on our <a href="patient-forms.html">Patient Forms &amp; Resources</a> page.</p>
+        </div>
+        <div class="form-card">
+          <form id="appointment-form" novalidate>
+            <label for="parentName">Parent/Guardian Name *</label>
+            <input id="parentName" name="parentName" type="text" autocomplete="name" required />
+            <span class="error" id="error-parent">Please enter the parent or guardian name.</span>
+
+            <label for="childName">Child First Name (optional)</label>
+            <input id="childName" name="childName" type="text" autocomplete="given-name" />
+
+            <label for="phone">Callback Phone *</label>
+            <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="(773) 555-1234" required />
+            <span class="error" id="error-phone">Please enter a valid phone number.</span>
+
+            <label for="email">Email (optional)</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" />
+
+            <label for="preferredTime">Preferred Day/Time *</label>
+            <input id="preferredTime" name="preferredTime" type="text" placeholder="e.g., Tues morning or after 3 PM" required />
+            <span class="error" id="error-preferred">Please share your preferred day/time.</span>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Please do not include medical details."></textarea>
+            <small>Please do not include medical details.</small>
+
+            <button class="btn btn-primary" type="submit">Submit Request</button>
+            <div class="form-success" role="status" tabindex="-1">Thanks! We’ll contact you within 1 business day.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <strong>JC Reyes Pediatrics</strong><br />
+        6745 West 63rd St, Chicago, IL 60638<br />
+        Phone: <a href="tel:+17732292373">(773) 229-2373</a>
+      </div>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services/index.html">Services</a>
+        <a href="patient-forms.html">Patient Forms</a>
+        <a href="contact.html">Contact</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <div>© 2026 JC Reyes Pediatrics. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
