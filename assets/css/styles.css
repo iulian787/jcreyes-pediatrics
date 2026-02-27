@@ -374,6 +374,10 @@ a:focus {
   background: linear-gradient(120deg, rgba(207, 238, 237, 0.6), rgba(255, 255, 255, 0.9));
 }
 
+.page-hero--compact {
+  padding: 32px 20px;
+}
+
 .page-hero h1 {
   margin-bottom: 10px;
   color: var(--blue-900);
@@ -381,6 +385,10 @@ a:focus {
 
 .page-content {
   padding: 50px 20px 80px;
+}
+
+.page-content--compact {
+  padding: 32px 20px 48px;
 }
 
 .page-content .container {
